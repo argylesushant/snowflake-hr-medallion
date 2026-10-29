@@ -1,0 +1,23 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
+secrets/
+credentials/
+connections.toml
+config.toml
+
+# Local/editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# Local datasets (do not commit real employee data)
+data/
+*.csv
+*.tsv
